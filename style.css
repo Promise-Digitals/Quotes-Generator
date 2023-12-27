@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display+SC:wght@700&family=Playfair+Display:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #222;
+}
+.logo{
+    width: 200px;
+    position: absolute;
+    top: 2%;
+    left: 3%;
+}
+.quotes{
+    width: 700px;
+    padding: 40px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+.quotes h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #222;
+    position: relative;
+}
+.quotes h2::before{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: #ff004f;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+.quotes-box{
+    margin: 50px auto;
+}
+.quotes-box blockquote{
+    font-size: 26px;
+    font-weight: 600;
+    min-height: 120px;
+    text-align: center;
+    color: #222;
+}
+.quotes-box blockquote::before, .quotes-box blockquote::after{
+    content: '"';
+}
+.quotes-box span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    display: block;
+    margin-bottom: 10px;
+    float: right;
+    position: relative;
+}
+.quotes-box span::before{
+    content: "";
+    width: 18px;
+    height: 2px;
+    background: #ff004f;
+    position: absolute;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    height: 60px;
+    width: 160px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    margin: 5px;
+    color: #fff;
+    font-size: 15px;
+    background: #ff004f;
+    text-align: center;
+}
+#tweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #ff004f;
+    color: #222;
+}
+#tweet img{
+    width: 30px;
+    margin-right: 5px;
+}

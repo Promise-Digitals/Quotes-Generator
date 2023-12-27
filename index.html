@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quotes Generator</title>
+</head>
+<body>
+    <div class="container">
+        <img src="/images/logo 1.png" class="logo">
+        <div class="quotes">
+            <h2>Quotes Of the Day</h2>
+            <div class="quotes-box">
+                <blockquote id="quotes">Loading...</blockquote>
+                <span id="author">loading...</span>
+            </div>
+            <div class="buttons">
+                <button onclick="getQuotes(api_url)">New Quotes</button>
+                <button id="tweet" onclick="tweet()"><img src="/images/twitter.png" alt="">Tweet</button>
+            </div>
+        </div>
+    </div>
+    <script src="myscript.js"></script>
+</body>
+</html>
