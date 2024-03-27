@@ -15,13 +15,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background: #222;
+    background: #1f2b37;
 }
 .logo{
-    width: 200px;
+    width: 100px;
     position: absolute;
-    top: 2%;
-    left: 3%;
+    top: 1%;
+    left: 1%;
 }
 .quotes{
     width: 700px;
@@ -41,7 +41,7 @@
     content: "";
     width: 80px;
     height: 4px;
-    background: #ff004f;
+    background: #4f76f6;
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -74,7 +74,7 @@
     content: "";
     width: 18px;
     height: 2px;
-    background: #ff004f;
+    background: #4f76f6;
     position: absolute;
     border-radius: 5px;
     position: absolute;
@@ -96,7 +96,7 @@
     margin: 5px;
     color: #fff;
     font-size: 15px;
-    background: #ff004f;
+    background: #4f76f6;
     text-align: center;
 }
 #tweet{
@@ -104,7 +104,7 @@
     align-items: center;
     justify-content: center;
     background: #fff;
-    border: 1px solid #ff004f;
+    border: 1px solid #4f76f6;
     color: #222;
 }
 #tweet img{
